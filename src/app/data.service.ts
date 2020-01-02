@@ -8,6 +8,6 @@ export class DataService {
 
   constructor(private http:HttpClient) { }
   getData(){
-    return this.http.get('http://api.github.com/users?since=1001');
+    return this.http.get('https://jsonplaceholder.typicode.com/users');
   }
 }
